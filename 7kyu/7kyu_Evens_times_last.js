@@ -14,3 +14,4 @@ function evenLast(numbers) {
     }
     return numbers[numbers.length - 1] * num
 }
+
