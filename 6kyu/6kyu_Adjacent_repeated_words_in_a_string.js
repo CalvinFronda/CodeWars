@@ -15,7 +15,6 @@ Examples
 "dog dog DOG dog dog dog"  -->  1
 "dog dog dog dog cat cat"  -->  2
 "cat cat dog dog cat cat"  -->  3
- * 
  */
 countAdjacentPairs = (searchString, p1 = /\b(\w+)\b\s+\1\b\s*(\1\b\s)*/gi) =>
     searchString === "" ? 0 : (searchString.match(p1) || []).length;
