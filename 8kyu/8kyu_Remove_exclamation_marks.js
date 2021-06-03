@@ -10,4 +10,3 @@ function removeExclamationMarks(s) {
     return result.join('');
 }
 
-console.log(removeExclamationMarks("Hello World!!"))
