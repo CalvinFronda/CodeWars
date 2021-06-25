@@ -33,11 +33,16 @@ Output: 0
  * @return {number}
  */
 var searchInsert = function (nums, target) {
+    // checks if the number has the index of target
     if (nums.indexOf(target) === -1) {
+        // if it doesnt, push the target into nums
         nums.push(target);
+        // sort the nums array
         nums.sort((a, b) => a - b);
+        // return the index of target
         return nums.indexOf(target);
     } else {
+        // return the next of target
         return nums.indexOf(target);
     }
 };
